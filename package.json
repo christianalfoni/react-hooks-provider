@@ -1,0 +1,34 @@
+{
+  "name": "react-hooks-provider",
+  "version": "1.0.0-rc2",
+  "description": "Efficiently expose hooks for optimal consumption",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianalfoni/react-hooks-provider.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "di",
+    "test"
+  ],
+  "author": "Christian Alfoni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianalfoni/react-hooks-provider/issues"
+  },
+  "homepage": "https://github.com/christianalfoni/react-hooks-provider#readme",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "@types/react": "^18.0.15"
+  }
+}
